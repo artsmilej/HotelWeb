@@ -58,3 +58,34 @@ E:\Studies\Kursovi roboty\ASP\HotelWeb\HotelWeb\obj\Debug\net8.0\refint\HotelWeb
 E:\Studies\Kursovi roboty\ASP\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.pdb
 E:\Studies\Kursovi roboty\ASP\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.genruntimeconfig.cache
 E:\Studies\Kursovi roboty\ASP\HotelWeb\HotelWeb\obj\Debug\net8.0\ref\HotelWeb.dll
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\bin\Debug\net8.0\appsettings.Development.json
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\bin\Debug\net8.0\appsettings.json
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\bin\Debug\net8.0\HotelWeb.staticwebassets.runtime.json
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\bin\Debug\net8.0\HotelWeb.exe
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\bin\Debug\net8.0\HotelWeb.deps.json
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\bin\Debug\net8.0\HotelWeb.runtimeconfig.json
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\bin\Debug\net8.0\HotelWeb.dll
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\bin\Debug\net8.0\HotelWeb.pdb
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.GeneratedMSBuildEditorConfig.editorconfig
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.AssemblyInfoInputs.cache
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.AssemblyInfo.cs
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.csproj.CoreCompileInputs.cache
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.MvcApplicationPartsAssemblyInfo.cache
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.RazorAssemblyInfo.cache
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.RazorAssemblyInfo.cs
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.sourcelink.json
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\staticwebassets.build.json
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\staticwebassets.development.json
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\staticwebassets\msbuild.HotelWeb.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\staticwebassets\msbuild.build.HotelWeb.props
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HotelWeb.props
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HotelWeb.props
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\scopedcss\bundle\HotelWeb.styles.css
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\scopedcss\projectbundle\HotelWeb.bundle.scp.css
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.dll
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\refint\HotelWeb.dll
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.pdb
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\HotelWeb.genruntimeconfig.cache
+E:\Проект\HotelWeb\HotelWeb\HotelWeb\obj\Debug\net8.0\ref\HotelWeb.dll

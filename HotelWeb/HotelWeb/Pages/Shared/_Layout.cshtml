@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Готель</title>
     <link rel="stylesheet" href="~/css/site.css" />
+    <script src="~/js/site.js"></script>
 </head>
 <body>
     <header>
@@ -13,8 +14,12 @@
                 <span>📞 +380 67 693 03 16</span>
                 <span>📍 вул. Хрещатик 1/2, м. Київ</span>
             </div>
-            <img src="~/img/logo.png" alt="Лого Готелю" class="logo">
-            <a href="/Booking" class="header-button">Бронювання</a>
+            <a href="/">
+                <img src="~/img/logo.svg" alt="Логотип Готелю">
+            </a>
+            <div class="header-button-container">
+                <a href="/Booking" class="header-button">Бронювання</a>
+            </div>
         </div>
         <nav class="menu">
             <ul>
@@ -30,7 +35,9 @@
     </main>
     <footer class="site-footer">
         <div class="footer-logo">
-            <img src="~/img/logo.png" alt="Логотип Готелю">
+            <a href="/">
+                <img src="~/img/logo-white.svg" alt="Логотип Готелю">
+            </a>
         </div>
         <div class="footer-menu">
             <ul>

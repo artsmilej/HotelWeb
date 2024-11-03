@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Studies\\Kursovi roboty\\ASP\\HotelWeb\\HotelWeb\\HotelWeb.csproj": {}
+    "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\HotelWeb.csproj": {}
   },
   "projects": {
-    "F:\\Studies\\Kursovi roboty\\ASP\\HotelWeb\\HotelWeb\\HotelWeb.csproj": {
+    "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\HotelWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Studies\\Kursovi roboty\\ASP\\HotelWeb\\HotelWeb\\HotelWeb.csproj",
+        "projectUniqueName": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\HotelWeb.csproj",
         "projectName": "HotelWeb",
-        "projectPath": "F:\\Studies\\Kursovi roboty\\ASP\\HotelWeb\\HotelWeb\\HotelWeb.csproj",
+        "projectPath": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\HotelWeb.csproj",
         "packagesPath": "C:\\Users\\oneta\\.nuget\\packages\\",
-        "outputPath": "F:\\Studies\\Kursovi roboty\\ASP\\HotelWeb\\HotelWeb\\obj\\",
+        "outputPath": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oneta\\AppData\\Roaming\\NuGet\\NuGet.Config",
