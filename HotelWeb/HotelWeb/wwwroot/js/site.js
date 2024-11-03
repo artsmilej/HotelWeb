@@ -4,6 +4,8 @@
     const bedsFilter = document.getElementById("beds").value;
     const balconyFilter = document.getElementById("balcony").value;
     const breakfastFilter = document.getElementById("breakfast").value;
+    const roomsFilter = document.getElementById("rooms").value;
+    const floorFilter = document.getElementById("floor").value;
 
     const rooms = Array.from(document.querySelectorAll(".room-card"));
 
@@ -13,16 +15,21 @@
         const roomBeds = room.getAttribute("data-beds");
         const roomBalcony = room.getAttribute("data-balcony");
         const roomBreakfast = room.getAttribute("data-breakfast");
+        const roomRooms = room.getAttribute("data-rooms");
+        const roomFloor = room.getAttribute("data-floor");
 
+        // Фільтрація за всіма критеріями
         if (categoryFilter !== "all" && roomCategory !== categoryFilter) return false;
         if (bedsFilter !== "all" && roomBeds !== bedsFilter) return false;
         if (balconyFilter !== "all" && roomBalcony !== balconyFilter) return false;
         if (breakfastFilter !== "all" && roomBreakfast !== breakfastFilter) return false;
+        if (roomsFilter !== "all" && roomRooms !== roomsFilter) return false;
+        if (floorFilter !== "all" && roomFloor !== floorFilter) return false;
 
         return true;
     });
 
-    // Якщо обрано сортування за ціною
+    // Сортування за ціною
     if (priceFilter === "ascending") {
         filteredRooms.sort((a, b) => parseInt(a.getAttribute("data-price")) - parseInt(b.getAttribute("data-price")));
     } else if (priceFilter === "descending") {
