@@ -1,0 +1,532 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: #333;
+}
+/* Стиль для кнопки в хедері */
+.header-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #fff; /* прозорий фон */
+    color: #333; /* білий текст */
+    border: 2px solid #333; /* біла рамка */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    /* Ефект при наведенні */
+    .header-button:hover {
+        background-color: #333; /* білий фон */
+        color: #fff; /* темний текст */
+    }
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.contact-info {
+    font-size: 1.2rem;
+}
+
+    .contact-info span {
+        margin-right: 1.5rem;
+    }
+
+.logo {
+    height: 50px;
+}
+
+.button {
+    padding: 0.5rem 1.2rem;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 1rem 0;
+}
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .menu a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+        .menu a:hover {
+            color: #555;
+        }
+
+.welcome-section {
+    background-image: url('/img/PhotoMain.jpg'); /* замініть шлях на свій */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+    .welcome-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* напівпрозорий чорний фон для кращої читабельності */
+    }
+
+.welcome-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+    .welcome-content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .welcome-content p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+.button {
+    padding: 0.8rem 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .button:hover {
+        background-color: #fff;
+        color: #333;
+    }
+
+.hotel-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.reviews-section {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+    .reviews-section h2 {
+        font-size: 1.8rem;
+        color: #333;
+        margin-bottom: 1.5rem;
+    }
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.review {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.review-author {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
+
+.review-rating {
+    color: #FFD700; /* золотий колір для зірок */
+    font-size: 1.2rem;
+}
+
+.review-date {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.review-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.hotel-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-section {
+    max-width: 60%;
+    text-align: justify;
+}
+
+    .text-section h1 {
+        font-size: 2rem;
+        color: #333;
+        text-align: center;
+    }
+
+    .text-section hr {
+        width: 50px;
+        border: 1px solid #333;
+        margin: 0.5rem auto 1rem;
+    }
+
+    .text-section p {
+        font-size: 1.1rem;
+        color: #666;
+        line-height: 1.8;
+        margin-bottom: 1rem;
+    }
+
+.images-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+    .images-section img {
+        width: 45%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+    }
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+
+/* Логотип у футері */
+.footer-logo {
+    flex: 1;
+    min-width: 200px;
+    text-align: left;
+}
+
+    .footer-logo img {
+        max-width: 150px;
+        margin-bottom: 1rem;
+    }
+
+/* Меню в футері */
+.footer-menu {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .footer-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .footer-menu ul li {
+            margin-bottom: 1.5rem; /* Відступ між елементами меню */
+        }
+
+            .footer-menu ul li:last-child {
+                margin-bottom: 0; /* Видаляє зайвий відступ у останнього елементу */
+            }
+
+            .footer-menu ul li a {
+                color: #ccc;
+                text-decoration: none;
+                font-size: 1.2rem;
+                font-weight: bold;
+                transition: color 0.3s;
+            }
+
+                .footer-menu ul li a:hover {
+                    color: #fff;
+                }
+
+/* Контактна інформація */
+.footer-contacts {
+    flex: 1;
+    min-width: 200px;
+    text-align: center; /* Центрування тексту */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрування елементів по горизонталі */
+}
+
+    .footer-contacts h3 {
+        font-size: 1.2rem;
+        color: #fff;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-contacts p {
+        margin: 0.3rem 0;
+        font-size: 1rem;
+        color: #bbb;
+    }
+
+    .footer-contacts .guest-message {
+        font-size: 1.2rem;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+
+/* Секція копірайту */
+.footer-copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+    color: #bbb;
+    font-size: 0.9rem;
+}
+
+.gallery-hero {
+    background-image: url('/img/PhotoMain.jpg'); /* Змініть на шлях до вашого зображення */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+    .gallery-hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+    .hero-content h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 стовпці */
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+
+        .gallery-item img:hover {
+            transform: scale(1.05); /* Ефект збільшення при наведенні */
+        }
+
+.contacts-hero {
+    background-image: url('/img/PhotoMain.jpg'); /* Змініть на шлях до вашого зображення */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+    .contacts-hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+.hero-content-contacts {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.hero-content-contacts h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 3rem 5rem; /* Збільшений відступ */
+    background-color: #f8f5f0;
+}
+
+.contact-column {
+    flex: 1;
+    max-width: 600px; /* Збільшення ширини */
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .contact-column h2, .contact-column h3 {
+        font-size: 1.8rem; /* Збільшений розмір шрифту */
+        color: #333;
+        margin-bottom: 0.5rem;
+    }
+
+    .contact-column hr {
+        border: none;
+        border-top: 2px solid #e3c485;
+        width: 60px;
+        margin: 0.5rem 0 1rem 0;
+    }
+
+    .contact-column p {
+        font-size: 1.2rem; /* Збільшений розмір тексту */
+        color: #666;
+        margin: 0.7rem 0;
+    }
+
+    .contact-column i {
+        color: #e3c485;
+        margin-right: 0.5rem;
+    }
+
+.map-section {
+    padding: 2rem 5rem; /* Відступи навколо секції */
+    background-color: #f8f5f0;
+}
+
+.map-container {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-hero {
+    background-image: url('/img/PhotoMain.jpg'); /* Замініть шлях на ваше зображення */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+    .booking-hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+.hero-content-booking {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+    .hero-content-booking h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #fff;
+    }

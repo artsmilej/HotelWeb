@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Готель</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="contact-info">
+                <span>📞 +380 67 693 03 16</span>
+                <span>📍 вул. Хрещатик 1/2, м. Київ</span>
+            </div>
+            <img src="~/img/logo.png" alt="Лого Готелю" class="logo">
+            <a href="/Booking" class="header-button">Бронювання</a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="/">Головна</a></li>
+                <li><a href="/Booking">Номери</a></li>
+                <li><a href="/Gallery">Галерея</a></li>
+                <li><a href="/Contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer class="site-footer">
+        <div class="footer-logo">
+            <img src="~/img/logo.png" alt="Логотип Готелю">
+        </div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="/">Головна</a></li>
+                <li><a href="/Booking">Номери</a></li>
+                <li><a href="/Gallery">Галерея</a></li>
+                <li><a href="/Contacts">Контакти</a></li>
+            </ul>
+        </div>
+        <div class="footer-contacts">
+            <h3>Контакти</h3>
+            <p>📞 +380 67 693 03 16</p>
+            <p>📍 вул. Хрещатик 1/2, м. Київ</p>
+            <p class="guest-message">Будьте нашим гостем!</p>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2024 Готель. Всі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>
