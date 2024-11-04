@@ -34,7 +34,7 @@ header {
 }
 
 .logo {
-    height: 50px; /* Змінюй цей розмір за потреби */
+    height: 50px;
 }
 
 .header-button-container {
@@ -51,7 +51,7 @@ header {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s, color 0.3s;
-    white-space: nowrap; /* Це допоможе уникнути розтягування кнопки */
+    white-space: nowrap;
 }
 
     .header-button:hover {
@@ -100,7 +100,7 @@ header {
         }
 
 .welcome-section {
-    background-image: url('/img/PhotoMain.jpg'); /* замініть шлях на свій */
+    background-image: url('/img/PhotoMain.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ header {
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.5); /* напівпрозорий чорний фон для кращої читабельності */
+        background-color: rgba(0, 0, 0, 0.5);
     }
 
 .welcome-content {
@@ -201,7 +201,7 @@ header {
 }
 
 .review-rating {
-    color: #FFD700; /* золотий колір для зірок */
+    color: #FFD700;
     font-size: 1.2rem;
 }
 
@@ -279,7 +279,6 @@ header {
     text-align: center;
 }
 
-/* Логотип у футері */
 .footer-logo {
     flex: 1;
     min-width: 200px;
@@ -292,7 +291,6 @@ header {
         width: 100%;
     }
 
-/* Меню в футері */
 .footer-menu {
     flex: 1;
     min-width: 200px;
@@ -310,11 +308,11 @@ header {
     }
 
         .footer-menu ul li {
-            margin-bottom: 1.5rem; /* Відступ між елементами меню */
+            margin-bottom: 1.5rem; 
         }
 
             .footer-menu ul li:last-child {
-                margin-bottom: 0; /* Видаляє зайвий відступ у останнього елементу */
+                margin-bottom: 0; 
             }
 
             .footer-menu ul li a {
@@ -329,14 +327,13 @@ header {
                     color: #fff;
                 }
 
-/* Контактна інформація */
 .footer-contacts {
     flex: 1;
     min-width: 200px;
-    text-align: center; /* Центрування тексту */
+    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Центрування елементів по горизонталі */
+    align-items: center;
 }
 
     .footer-contacts h3 {
@@ -358,7 +355,6 @@ header {
         margin-top: 1rem;
     }
 
-/* Секція копірайту */
 .footer-copyright {
     width: 100%;
     text-align: center;
@@ -370,7 +366,7 @@ header {
 }
 
 .gallery-hero {
-    background-image: url('/img/PhotoMain.jpg'); /* Змініть на шлях до вашого зображення */
+    background-image: url('/img/PhotoMain.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -406,7 +402,7 @@ header {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 стовпці */
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     padding: 2rem;
 }
@@ -424,11 +420,11 @@ header {
     }
 
         .gallery-item img:hover {
-            transform: scale(1.05); /* Ефект збільшення при наведенні */
+            transform: scale(1.05);
         }
 
 .contacts-hero {
-    background-image: url('/img/PhotoMain.jpg'); /* Змініть на шлях до вашого зображення */
+    background-image: url('/img/PhotoMain.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -464,13 +460,13 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    padding: 3rem 5rem; /* Збільшений відступ */
+    padding: 3rem 5rem;
     background-color: #f8f5f0;
 }
 
 .contact-column {
     flex: 1;
-    max-width: 600px; /* Збільшення ширини */
+    max-width: 600px;
     background-color: #fff;
     padding: 2rem;
     border-radius: 10px;
@@ -478,7 +474,7 @@ header {
 }
 
     .contact-column h2, .contact-column h3 {
-        font-size: 1.8rem; /* Збільшений розмір шрифту */
+        font-size: 1.8rem;
         color: #333;
         margin-bottom: 0.5rem;
     }
@@ -491,7 +487,7 @@ header {
     }
 
     .contact-column p {
-        font-size: 1.2rem; /* Збільшений розмір тексту */
+        font-size: 1.2rem;
         color: #666;
         margin: 0.7rem 0;
     }
@@ -502,7 +498,7 @@ header {
     }
 
 .map-section {
-    padding: 2rem 5rem; /* Відступи навколо секції */
+    padding: 2rem 5rem;
     background-color: #f8f5f0;
 }
 
@@ -515,7 +511,7 @@ header {
 }
 
 .booking-hero {
-    background-image: url('/img/PhotoMain.jpg'); /* Замініть шлях на ваше зображення */
+    background-image: url('/img/PhotoMain.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -659,7 +655,6 @@ header {
         margin: 0.3rem 0;
     }
 
-/* Стиль для кнопки Забронювати */
 .booking-button {
     padding: 0.7rem 1.5rem;
     font-size: 1rem;
@@ -668,8 +663,8 @@ header {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    align-self: center; /* Вирівнює кнопку вертикально */
-    margin-left: auto; /* Вирівнює кнопку праворуч */
+    align-self: center;
+    margin-left: auto;
     transition: background-color 0.3s;
 }
 
@@ -677,7 +672,6 @@ header {
         background-color: #d2b472;
     }
 
-/* Стилі для модального вікна */
 .modal {
     display: none;
     position: fixed;
@@ -767,7 +761,7 @@ header {
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
     color: #fff;
-    background-color: #4CAF50; /* Зелений колір для кнопки */
+    background-color: #4CAF50;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -775,5 +769,5 @@ header {
 }
 
     .modal-content button:hover {
-        background-color: #45a049; /* Трохи темніший зелений при наведенні */
+        background-color: #45a049;
     }

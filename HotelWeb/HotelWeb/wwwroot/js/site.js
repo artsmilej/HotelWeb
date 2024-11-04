@@ -18,7 +18,6 @@
         const roomRooms = room.getAttribute("data-rooms");
         const roomFloor = room.getAttribute("data-floor");
 
-        // Фільтрація за всіма критеріями
         if (categoryFilter !== "all" && roomCategory !== categoryFilter) return false;
         if (bedsFilter !== "all" && roomBeds !== bedsFilter) return false;
         if (balconyFilter !== "all" && roomBalcony !== balconyFilter) return false;
@@ -29,39 +28,33 @@
         return true;
     });
 
-    // Сортування за ціною
     if (priceFilter === "ascending") {
         filteredRooms.sort((a, b) => parseInt(a.getAttribute("data-price")) - parseInt(b.getAttribute("data-price")));
     } else if (priceFilter === "descending") {
         filteredRooms.sort((a, b) => parseInt(b.getAttribute("data-price")) - parseInt(a.getAttribute("data-price")));
     } else {
-        // Якщо обрано "Всі", повертаємо картки до початкового порядку за data-index
+       
         filteredRooms.sort((a, b) => parseInt(a.getAttribute("data-index")) - parseInt(b.getAttribute("data-index")));
     }
 
-    // Приховуємо всі картки
     rooms.forEach(room => room.style.display = "none");
 
-    // Відображаємо відфільтровані та відсортовані картки
     filteredRooms.forEach(room => room.style.display = "flex");
 }
 
 
 
 
-// Функція для відкриття модального вікна
 function openBookingModal(pricePerNight) {
     document.getElementById("bookingModal").style.display = "block";
     document.getElementById("bookingModal").setAttribute("data-price", pricePerNight);
-    calculateTotal(); // Оновлюємо суму при відкритті модального вікна
+    calculateTotal();
 }
 
-// Функція для закриття модального вікна
 function closeModal() {
     document.getElementById("bookingModal").style.display = "none";
 }
 
-// Функція для обробки форми бронювання
 function submitBooking() {
     const firstName = document.getElementById("firstName").value;
     const lastName = document.getElementById("lastName").value;
@@ -70,13 +63,11 @@ function submitBooking() {
     const startDate = document.getElementById("startDate").value;
     const endDate = document.getElementById("endDate").value;
 
-    // Перевірка заповнення обов'язкових полів
     if (!firstName || !lastName || !phoneNumber || !startDate || !endDate) {
         alert("Будь ласка, заповніть усі обов'язкові поля!");
         return;
     }
 
-    // Заміна вмісту модального вікна на повідомлення про успіх
     const modalContent = document.querySelector(".modal-content");
     modalContent.innerHTML = `
         <h2>Дякуємо за бронювання!</h2>
@@ -95,7 +86,6 @@ function calculateTotal() {
         const start = new Date(startDate);
         const end = new Date(endDate);
 
-        // Обчислюємо кількість днів між датами
         const days = Math.ceil((end - start) / (1000 * 60 * 60 * 24));
 
         if (days > 0) {
