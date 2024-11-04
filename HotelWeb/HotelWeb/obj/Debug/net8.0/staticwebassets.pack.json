@@ -21,16 +21,24 @@
       "PackagePath": "staticwebassets\\img\\logo-white.svg"
     },
     {
-      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logo.jpg",
-      "PackagePath": "staticwebassets\\img\\logo.jpg"
-    },
-    {
-      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logo.png",
-      "PackagePath": "staticwebassets\\img\\logo.png"
-    },
-    {
       "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logo.svg",
       "PackagePath": "staticwebassets\\img\\logo.svg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\lux1.jpg",
+      "PackagePath": "staticwebassets\\img\\lux1.jpg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\lux2.jpg",
+      "PackagePath": "staticwebassets\\img\\lux2.jpg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\lux3.jpg",
+      "PackagePath": "staticwebassets\\img\\lux3.jpg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\lux4.jpg",
+      "PackagePath": "staticwebassets\\img\\lux4.jpg"
     },
     {
       "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\mainphoto.jpg",
@@ -95,6 +103,30 @@
     {
       "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\photo9.jpg",
       "PackagePath": "staticwebassets\\img\\photo9.jpg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\president1.jpg",
+      "PackagePath": "staticwebassets\\img\\president1.jpg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\president2.jpg",
+      "PackagePath": "staticwebassets\\img\\president2.jpg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\president3.jpg",
+      "PackagePath": "staticwebassets\\img\\president3.jpg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\standard1.jpg",
+      "PackagePath": "staticwebassets\\img\\standard1.jpg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\standard2.jpg",
+      "PackagePath": "staticwebassets\\img\\standard2.jpg"
+    },
+    {
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\standard3.jpg",
+      "PackagePath": "staticwebassets\\img\\standard3.jpg"
     },
     {
       "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\js\\site.js",

@@ -27,8 +27,8 @@
             <select id="category" name="category">
                 <option value="all">Всі</option>
                 <option value="luxury">Люкс</option>
-                <option value="presidential">Президентські</option>
-                <option value="standard">Звичайні</option>
+                <option value="presidential">Президентський</option>
+                <option value="standard">Стандарт</option>
             </select>
         </div>
         <div class="filter-item">
@@ -38,8 +38,6 @@
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
             </select>
         </div>
         <div class="filter-item">
@@ -68,7 +66,6 @@
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
-                <option value="5">5</option>
             </select>
         </div>
 
@@ -82,7 +79,6 @@
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
-                <option value="6">6</option>
             </select>
         </div>
 
@@ -95,364 +91,544 @@
 
 <div class="rooms-container">
 
-    <div class="room-card" data-price="2500" data-category="luxury" data-beds="1" data-balcony="yes" data-breakfast="yes" data-rooms="1" data-floor="1" data-index="1">
-        <img src="img/photo9.jpg" alt="Luxury Room" class="room-image">
+    <div class="room-card" data-price="1500" data-category="luxury" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="2" data-floor="1" data-index="1">
+        <img src="img/lux1.jpg" alt="Luxury Room" class="room-image">
         <div class="room-description">
-            <h4>Люкс 1</h4>
-            <p>Затишний однокімнатний люкс з одним ліжком, балконом та видом на місто. Ідеальний для романтичного відпочинку. Сніданок включений.</p>
+            <h4>№1</h4>
+            <p>Затишний двомісний люкс з просторим балконом, який відкриває вид на вечірнє місто. Номер оснащений усіма сучасними зручностями, включаючи кондиціонер, сейф і безкоштовний Wi-Fi. Ідеально підходить для пар або романтичного відпочинку. Включений сніданок подається в ресторані з панорамним видом на місто, що створює неповторну атмосферу ранкового затишку. Оригінальний інтер'єр у стилі мінімалізму додає комфорту, а велике двоспальне ліжко гарантує повноцінний відпочинок.</p>
         </div>
         <div class="room-attributes">
-            <p>Ціна: 2500 грн/ніч</p>
+            <p>Ціна: 1500₴ /ніч</p>
             <p>Категорія: Люкс</p>
-            <p>Кількість ліжок: 1</p>
-            <p>Балкон: Так</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Є</p>
             <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 2</p>
+            <p>Поверх: 1</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(1500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="3000" data-category="presidential" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="3" data-floor="1" data-index="2">
+        <img src="img/president1.jpg" alt="Presidential Room" class="room-image">
+        <div class="room-description">
+            <h4>№2</h4>
+            <p>Розкішний президентський люкс з двома спальнями та просторим балконом, звідки відкривається вид на річку. Номер ідеально підходить для VIP-гостей, які цінують ексклюзивність і комфорт. Оснащений системою "розумний дім", що дозволяє керувати світлом, температурою та безпекою через смартфон. Сніданок подається в номер, щоб гості могли насолодитися вишуканими стравами в комфорті свого номеру. Ідеальний вибір для тих, хто цінує приватність та комфорт на найвищому рівні.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 3000₴ /ніч</p>
+            <p>Категорія: Президентський</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 3</p>
+            <p>Поверх: 1</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(3000)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="500" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="1" data-index="3">
+        <img src="img/standard1.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№3</h4>
+            <p>Зручний стандартний номер на першому поверсі з базовими зручностями, створений для короткотермінових відвідувачів. Хоча номер не має балкона, він пропонує комфортне проживання за доступною ціною. Інтер’єр виконаний у сучасному стилі з акцентом на зручність та практичність. Ліжко з ортопедичним матрацом забезпечує відмінний відпочинок після довгого дня. Ідеально підходить для ділових мандрівників або тих, хто приїхав на короткий час.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 500₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
+            <p>Кількість ліжок: 1</p>
+            <p>Балкон: Немає</p>
+            <p>Сніданок: Немає</p>
             <p>Кількість кімнат: 1</p>
             <p>Поверх: 1</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="2200" data-category="luxury" data-beds="3" data-balcony="no" data-breakfast="yes" data-rooms="3" data-floor="1" data-index="4">
+        <img src="img/lux2.jpg" alt="Luxury Room" class="room-image">
+        <div class="room-description">
+            <h4>№4</h4>
+            <p>Просторий люкс для всієї родини з трьома ліжками, розташований на першому поверсі. Оформлений у світлих тонах, що створюють атмосферу затишку та спокою. Номер без балкона, але із великим вікном, через яке можна милуватися зеленим парком. Гості можуть насолоджуватись сніданком у ресторані готелю або скористатися доставкою їжі до номеру. Ідеальний вибір для сімейного відпочинку, де кожен зможе знайти свій комфортний куточок.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 2200₴ /ніч</p>
+            <p>Категорія: Люкс</p>
+            <p>Кількість ліжок: 3</p>
+            <p>Балкон: Немає</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 3</p>
+            <p>Поверх: 1</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(2200)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="3500" data-category="presidential" data-beds="3" data-balcony="yes" data-breakfast="yes" data-rooms="4" data-floor="1" data-index="5">
+        <img src="img/president2.jpg" alt="Presidential Room" class="room-image">
+        <div class="room-description">
+            <h4>№5</h4>
+            <p>Розкішний президентський люкс з трьома спальнями та балконом на верхньому поверсі. Цей номер розрахований на гостей, які цінують високий рівень комфорту та приватність. З номеру відкривається панорамний вид на місто, а просторий балкон створює ідеальну атмосферу для вечірніх відпочинків. Сніданок включено, і його подають у номер або у VIP-зоні ресторану. У номері є все необхідне для довготривалого перебування, включаючи кухню та велику ванну кімнату з джакузі.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 3500₴ /ніч</p>
+            <p>Категорія: Президентський</p>
+            <p>Кількість ліжок: 3</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 4</p>
+            <p>Поверх: 1</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(3500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="700" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="yes" data-rooms="2" data-floor="1" data-index="6">
+        <img src="img/standard2.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№6</h4>
+            <p>Номер стандартного класу, який ідеально підійде для бізнес-мандрівників. Затишний простір без балкону, але з усіма необхідними зручностями. Включено сніданок, який можна замовити до номера. В номері є робочий стіл, крісло та швидкісний інтернет, що робить його зручним для роботи. Зручне розташування на першому поверсі дозволяє швидко виходити та повертатись до номеру.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 700₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
+            <p>Кількість ліжок: 1</p>
+            <p>Балкон: Немає</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 2</p>
+            <p>Поверх: 1</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(700)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="1500" data-category="luxury" data-beds="2" data-balcony="no" data-breakfast="yes" data-rooms="2" data-floor="2" data-index="7">
+        <img src="img/lux3.jpg" alt="Luxury Room" class="room-image">
+        <div class="room-description">
+            <h4>№7</h4>
+            <p>Бюджетний люкс з двома спальними місцями. Номер виконаний у мінімалістичному стилі, що надає відчуття легкості та простору. Ідеальний вибір для тих, хто хоче зекономити, але не готовий жертвувати комфортом. Сніданок включений у вартість та подається у ресторані. Номер ідеально підходить для мандрівників, які планують залишитися у місті на кілька днів.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 1500₴ /ніч</p>
+            <p>Категорія: Люкс</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Немає</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 2</p>
+            <p>Поверх: 2</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(1500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="3500" data-category="presidential" data-beds="3" data-balcony="yes" data-breakfast="yes" data-rooms="4" data-floor="2" data-index="8">
+        <img src="img/president3.jpg" alt="Presidential Room" class="room-image">
+        <div class="room-description">
+            <h4>№8</h4>
+            <p>Президентський номер на другому поверсі з трьома спальнями та балконом. Чудовий варіант для гостей, які віддають перевагу комфорту та елегантності. Номер має просторий балкон, де можна насолоджуватися ранковою кавою з видом на місто. У вартість включено сніданок, який можна замовити до номеру або насолодитися в ресторані. Високий рівень сервісу та сучасні зручності гарантують комфортне перебування.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 3500₴ /ніч</p>
+            <p>Категорія: Президентський</p>
+            <p>Кількість ліжок: 3</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 4</p>
+            <p>Поверх: 2</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(3500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="1000" data-category="standard" data-beds="2" data-balcony="no" data-breakfast="yes" data-rooms="2" data-floor="2" data-index="9">
+        <img src="img/standard3.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№9</h4>
+            <p>Просторий стандартний номер для двох гостей. Номер без балкона, але з великим вікном, через яке видно парк. Сніданок включено, що робить перебування ще приємнішим. Номер оснащений всіма необхідними зручностями, включаючи телевізор, швидкісний інтернет та робочий стіл. Ідеально підходить для сімейного або ділового відпочинку.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 1000₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Немає</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 2</p>
+            <p>Поверх: 2</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(1000)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="2500" data-category="luxury" data-beds="3" data-balcony="yes" data-breakfast="yes" data-rooms="3" data-floor="2" data-index="10">
+        <img src="img/lux4.jpg" alt="Luxury Suite" class="room-image">
+        <div class="room-description">
+            <h4>№10</h4>
+            <p>Елітний люкс з панорамним видом, який підходить для найвибагливіших гостей. Номер обладнаний сучасною технікою та меблями, а також має просторий балкон. Гості можуть насолоджуватись сніданком у ресторані або замовити доставку їжі до номеру. Ідеальний вибір для тих, хто цінує розкіш та комфорт у кожній деталі.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 2500₴ /ніч</p>
+            <p>Категорія: Люкс</p>
+            <p>Кількість ліжок: 3</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 3</p>
+            <p>Поверх: 2</p>
         </div>
         <button class="booking-button" onclick="openBookingModal(2500)">Забронювати</button>
     </div>
 
-    <div class="room-card" data-price="3000" data-category="presidential" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="2" data-floor="3" data-index="2">
-        <img src="img/photo9.jpg" alt="Presidential Suite" class="room-image">
+    <div class="room-card" data-price="3000" data-category="presidential" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="3" data-floor="2" data-index="11">
+        <img src="img/president2.jpg" alt="Presidential Room" class="room-image">
         <div class="room-description">
-            <h4>Президентський Люкс 2</h4>
-            <p>Розкішний двокімнатний номер з двома зручними ліжками, балконом та видом на річку. Ідеальний для VIP-гостей. Сніданок включений.</p>
+            <h4>№11</h4>
+            <p>Президентський номер з двома спальними місцями та простим інтер'єром. Він ідеально підходить для тих, хто приїхав у місто на короткий час і потребує мінімального набору зручностей. Незважаючи на простоту, номер оснащений всім необхідним, включаючи балкон, з якого можна насолоджуватися видом на місто. Сніданок включено, а також є можливість замовити його до номеру.</p>
         </div>
         <div class="room-attributes">
-            <p>Ціна: 3000 грн/ніч</p>
-            <p>Категорія: Президентські</p>
+            <p>Ціна: 3000₴ /ніч</p>
+            <p>Категорія: Президентський</p>
             <p>Кількість ліжок: 2</p>
-            <p>Балкон: Так</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 3</p>
+            <p>Поверх: 2</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(3000)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="800" data-category="standard" data-beds="1" data-balcony="yes" data-breakfast="yes" data-rooms="2" data-floor="2" data-index="12">
+        <img src="img/standard2.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№12</h4>
+            <p>Стандартний номер для одного гостя з балконом та видом на зелений парк. Просторий і світлий, він створений для спокійного відпочинку. Включає всі необхідні зручності для комфортного перебування, зокрема сніданок у ресторані готелю. Це ідеальний варіант для тих, хто шукає затишок і приватність в одному просторі.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 800₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
+            <p>Кількість ліжок: 1</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 2</p>
+            <p>Поверх: 2</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(800)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="2000" data-category="luxury" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="2" data-floor="3" data-index="13">
+        <img src="img/lux3.jpg" alt="Luxury Suite" class="room-image">
+        <div class="room-description">
+            <h4>№13</h4>
+            <p>Люкс із двома спальними місцями на третьому поверсі. З панорамного балкону відкривається чудовий вид на річку. Номер ідеально підходить для пар, що бажають провести романтичний відпочинок у сучасному просторі з усіма зручностями. Сніданок можна замовити до номеру або насолодитися ним у ресторані, милуючись ранковим видом.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 2000₴ /ніч</p>
+            <p>Категорія: Люкс</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 3</p>
+            <p>Поверх: 3</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(2000)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="3000" data-category="presidential" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="3" data-floor="3" data-index="14">
+        <img src="img/president1.jpg" alt="Presidential Room" class="room-image">
+        <div class="room-description">
+            <h4>№14</h4>
+            <p>Президентський номер на третьому поверсі з видом на місто. Цей номер для одного відвідувача з мінімалістичним інтер’єром, що створює атмосферу спокою та легкості. Ідеальний варіант для бізнес-мандрівників або тих, хто хоче поєднати комфорт і зручність.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 3000₴ /ніч</p>
+            <p>Категорія: Президентський</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 3</p>
+            <p>Поверх: 3</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(3000)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="500" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="yes" data-rooms="1" data-floor="3" data-index="15">
+        <img src="img/standard1.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№15</h4>
+            <p>Затишний стандартний номер для коротких відряджень, розташований на третьому поверсі. Зручний та практичний простір без балкона, проте з великим вікном, яке робить кімнату світлою і привітною. Сніданок входить у вартість і подається в ресторані, забезпечуючи гостей початком дня у гарному настрої.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 500₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
+            <p>Кількість ліжок: 1</p>
+            <p>Балкон: Немає</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 1</p>
+            <p>Поверх: 3</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="1700" data-category="luxury" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="2" data-floor="3" data-index="16">
+        <img src="img/lux2.jpg" alt="Luxury Suite" class="room-image">
+        <div class="room-description">
+            <h4>№16</h4>
+            <p>Просторий люкс для двох гостей з видом на місто та балконом. Номер на третьому поверсі з великим двоспальним ліжком та дизайнерськими меблями, що додають комфорту і стилю. Включає сніданок і всі необхідні зручності для повноцінного відпочинку. Ідеальний для пар або гостей, які цінують комфорт та приватність.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 1700₴ /ніч</p>
+            <p>Категорія: Люкс</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Є</p>
             <p>Сніданок: Є</p>
             <p>Кількість кімнат: 2</p>
             <p>Поверх: 3</p>
         </div>
-        <button class="booking-button">Забронювати</button>
+        <button class="booking-button" onclick="openBookingModal(1700)">Забронювати</button>
     </div>
 
-    <div class="room-card" data-price="1800" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="1" data-index="3">
-        <img src="img/photo9.jpg" alt="Standard Room" class="room-image">
+    <div class="room-card" data-price="3400" data-category="presidential" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="4" data-floor="3" data-index="17">
+        <img src="img/president2.jpg" alt="Presidential Room" class="room-image">
         <div class="room-description">
-            <h4>Стандартний Номер 3</h4>
-            <p>Однокімнатний номер з базовими зручностями на першому поверсі. Без балкону, ідеальний для короткочасного перебування.</p>
+            <h4>№17</h4>
+            <p>Президентський номер із чотирма спальнями, призначений для вибагливих гостей, що віддають перевагу великому простору. Номер має балкон із видом на парк, а також оснащений усіма сучасними зручностями, включаючи систему "розумний дім". Сніданок подається до номеру або у VIP-зоні ресторану, що створює унікальну атмосферу для кожного гостя.</p>
         </div>
         <div class="room-attributes">
-            <p>Ціна: 1800 грн/ніч</p>
-            <p>Категорія: Звичайні</p>
-            <p>Кількість ліжок: 1</p>
-            <p>Балкон: Ні</p>
-            <p>Сніданок: Немає</p>
-            <p>Кількість кімнат: 1</p>
-            <p>Поверх: 1</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="2800" data-category="luxury" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="1" data-floor="2" data-index="4">
-        <img src="img/photo9.jpg" alt="Luxury Room" class="room-image">
-        <div class="room-description">
-            <h4>Люкс 4</h4>
-            <p>Просторий номер з двома ліжками, балконом та видом на парк. Ідеально підходить для сімейного відпочинку з включеним сніданком.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 2800 грн/ніч</p>
-            <p>Категорія: Люкс</p>
+            <p>Ціна: 3400₴ /ніч</p>
+            <p>Категорія: Президентський</p>
             <p>Кількість ліжок: 2</p>
-            <p>Балкон: Так</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 4</p>
+            <p>Поверх: 3</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(3400)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="800" data-category="standard" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="1" data-floor="3" data-index="18">
+        <img src="img/standard2.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№18</h4>
+            <p>Стандартний номер з двома спальними місцями на третьому поверсі з балконом. Ідеально підходить для пар або друзів, які подорожують разом. Затишний інтер'єр у теплих тонах створює атмосферу відпочинку, а сніданок у ресторані додає комфорту до перебування в готелі.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 800₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Є</p>
             <p>Сніданок: Є</p>
             <p>Кількість кімнат: 1</p>
-            <p>Поверх: 2</p>
+            <p>Поверх: 3</p>
         </div>
-        <button class="booking-button">Забронювати</button>
+        <button class="booking-button" onclick="openBookingModal(800)">Забронювати</button>
     </div>
 
-    <div class="room-card" data-price="3500" data-category="presidential" data-beds="3" data-balcony="yes" data-breakfast="yes" data-rooms="3" data-floor="5" data-index="5">
-        <img src="img/photo9.jpg" alt="Presidential Suite" class="room-image">
+    <div class="room-card" data-price="1800" data-category="luxury" data-beds="2" data-balcony="no" data-breakfast="yes" data-rooms="3" data-floor="4" data-index="19">
+        <img src="img/lux1.jpg" alt="Luxury Room" class="room-image">
         <div class="room-description">
-            <h4>Президентський Люкс 5</h4>
-            <p>Вишуканий трикімнатний номер для найвибагливіших гостей з панорамним видом на місто. Розташований на 5-му поверсі, сніданок включено.</p>
+            <h4>№19</h4>
+            <p>Бюджетний люкс без балкона, але з просторими кімнатами та чудовим видом на парк з великого вікна. Оснащений усіма базовими зручностями, включаючи швидкісний інтернет і великий робочий стіл, що робить його зручним для ділових поїздок.</p>
         </div>
         <div class="room-attributes">
-            <p>Ціна: 3500 грн/ніч</p>
-            <p>Категорія: Президентські</p>
+            <p>Ціна: 1800₴ /ніч</p>
+            <p>Категорія: Люкс</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Немає</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 3</p>
+            <p>Поверх: 4</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(1800)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="3500" data-category="presidential" data-beds="3" data-balcony="yes" data-breakfast="yes" data-rooms="4" data-floor="4" data-index="20">
+        <img src="img/president3.jpg" alt="Presidential Room" class="room-image">
+        <div class="room-description">
+            <h4>№20</h4>
+            <p>Президентський люкс на четвертому поверсі для трьох гостей з просторим балконом та панорамним видом на місто. Номер обладнаний сучасною технікою та меблями, що підходять для найвибагливіших гостей. Ідеально підходить для тих, хто шукає розкіш та комфорт на найвищому рівні. Сніданок входить у вартість і подається до номеру.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 3500₴ /ніч</p>
+            <p>Категорія: Президентський</p>
             <p>Кількість ліжок: 3</p>
-            <p>Балкон: Так</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 4</p>
+            <p>Поверх: 4</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(3500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="500" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="4" data-index="21">
+        <img src="img/standard3.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№21</h4>
+            <p>Компактний стандартний номер для одного гостя без балкону, з усіма необхідними зручностями для короткотривалого перебування. Ідеальний вибір для ділових мандрівників або тих, хто потребує простого, але комфортного місця для відпочинку після насиченого дня.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 500₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
+            <p>Кількість ліжок: 1</p>
+            <p>Балкон: Немає</p>
+            <p>Сніданок: Немає</p>
+            <p>Кількість кімнат: 1</p>
+            <p>Поверх: 4</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="2000" data-category="luxury" data-beds="2" data-balcony="yes" data-breakfast="no" data-rooms="3" data-floor="4" data-index="22">
+        <img src="img/lux3.jpg" alt="Luxury Room" class="room-image">
+        <div class="room-description">
+            <h4>№22</h4>
+            <p>Люкс для двох гостей з балконом та видом на місто. Оснащений всіма зручностями, включаючи великий телевізор і безкоштовний Wi-Fi. Ідеальний для пар або гостей, що цінують простір і комфорт. Сніданок подається в ресторані, а також є можливість замовити його до номеру.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 2000₴ /ніч</p>
+            <p>Категорія: Люкс</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Немає</p>
+            <p>Кількість кімнат: 3</p>
+            <p>Поверх: 4</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(2000)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="3100" data-category="presidential" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="3" data-floor="4" data-index="23">
+        <img src="img/president2.jpg" alt="Presidential Room" class="room-image">
+        <div class="room-description">
+            <h4>№23</h4>
+            <p>Президентський номер для двох гостей на четвертому поверсі з балконом та видом на парк. Просторий і стильний інтер'єр, який забезпечує всі умови для повноцінного відпочинку. Сніданок включено у вартість і подається в номер або у VIP-зоні ресторану.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 3100₴ /ніч</p>
+            <p>Категорія: Президентський</p>
+            <p>Кількість ліжок: 2</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 3</p>
+            <p>Поверх: 4</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(3100)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="800" data-category="standard" data-beds="1" data-balcony="yes" data-breakfast="yes" data-rooms="1" data-floor="4" data-index="24">
+        <img src="img/standard2.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№24</h4>
+            <p>Стандартний номер з балконом для одного гостя, призначений для комфортного і затишного відпочинку. Ідеальний вибір для коротких поїздок або відряджень. Сніданок входить у вартість і подається в ресторані або за бажанням у номер.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 800₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
+            <p>Кількість ліжок: 1</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 1</p>
+            <p>Поверх: 4</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(800)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="1800" data-category="luxury" data-beds="1" data-balcony="no" data-breakfast="yes" data-rooms="3" data-floor="5" data-index="25">
+        <img src="img/lux4.jpg" alt="Luxury Room" class="room-image">
+        <div class="room-description">
+            <h4>№25</h4>
+            <p>Люкс для одного з базовими зручностями та великим вікном з видом на місто. Ідеальний вибір для тих, хто хоче залишитися на короткий час, але бажає отримати якісний сервіс. Включає сніданок, поданий в ресторані.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 1800₴ /ніч</p>
+            <p>Категорія: Люкс</p>
+            <p>Кількість ліжок: 1</p>
+            <p>Балкон: Немає</p>
             <p>Сніданок: Є</p>
             <p>Кількість кімнат: 3</p>
             <p>Поверх: 5</p>
         </div>
-        <button class="booking-button">Забронювати</button>
+        <button class="booking-button" onclick="openBookingModal(1800)">Забронювати</button>
     </div>
 
-    <div class="room-card" data-price="2200" data-category="luxury" data-beds="1" data-balcony="no" data-breakfast="yes" data-rooms="1" data-floor="2" data-index="6">
-        <img src="img/room6.jpg" alt="Luxury Room" class="room-image">
+    <div class="room-card" data-price="2500" data-category="presidential" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="4" data-floor="5" data-index="26">
+        <img src="img/president3.jpg" alt="Presidential Room" class="room-image">
         <div class="room-description">
-            <h4>Люкс 6</h4>
-            <p>Затишний люкс для одного, без балкону, але з усіма зручностями. Сніданок включено, ідеальний для бізнес-подорожей.</p>
+            <h4>№26</h4>
+            <p>Президентський люкс на п’ятому поверсі для двох гостей із простором для роботи та відпочинку. Номер обладнаний балконом із захоплюючим видом, де гості можуть насолоджуватися ранковою кавою. Сніданок включено у вартість та подається до номеру або у VIP-зоні.</p>
         </div>
         <div class="room-attributes">
-            <p>Ціна: 2200 грн/ніч</p>
-            <p>Категорія: Люкс</p>
-            <p>Кількість ліжок: 1</p>
-            <p>Балкон: Ні</p>
-            <p>Сніданок: Є</p>
-            <p>Кількість кімнат: 1</p>
-            <p>Поверх: 2</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="1700" data-category="standard" data-beds="2" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="1" data-index="7">
-        <img src="img/room7.jpg" alt="Standard Room" class="room-image">
-        <div class="room-description">
-            <h4>Стандартний Номер 7</h4>
-            <p>Простий двомісний номер без балкону, але з базовими зручностями. Ідеальний для бюджетного перебування.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 1700 грн/ніч</p>
-            <p>Категорія: Звичайні</p>
+            <p>Ціна: 2500₴ /ніч</p>
+            <p>Категорія: Президентський</p>
             <p>Кількість ліжок: 2</p>
-            <p>Балкон: Ні</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 4</p>
+            <p>Поверх: 5</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(2500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="500" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="5" data-index="27">
+        <img src="img/standard3.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№27</h4>
+            <p>Стандартний номер з базовими зручностями для одного гостя. Номер без балкону, але з великим вікном, що робить простір світлим та затишним. Ідеальний вибір для короткотривалих поїздок або ділових мандрівників. Сніданок подається у ресторані.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 500₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
+            <p>Кількість ліжок: 1</p>
+            <p>Балкон: Немає</p>
             <p>Сніданок: Немає</p>
             <p>Кількість кімнат: 1</p>
-            <p>Поверх: 1</p>
+            <p>Поверх: 5</p>
         </div>
-        <button class="booking-button">Забронювати</button>
+        <button class="booking-button" onclick="openBookingModal(500)">Забронювати</button>
     </div>
 
-    <div class="room-card" data-price="2100" data-category="standard" data-beds="1" data-balcony="yes" data-breakfast="yes" data-rooms="1" data-floor="2" data-index="8">
-        <img src="img/room8.jpg" alt="Standard Room" class="room-image">
+    <div class="room-card" data-price="1900" data-category="luxury" data-beds="2" data-balcony="yes" data-breakfast="no" data-rooms="3" data-floor="5" data-index="28">
+        <img src="img/lux3.jpg" alt="Luxury Room" class="room-image">
         <div class="room-description">
-            <h4>Стандартний Номер 8</h4>
-            <p>Номер з одним ліжком і балконом, який виходить на внутрішній двір. Зручності включають сніданок.</p>
+            <h4>№28</h4>
+            <p>Люкс із двома спальнями для комфортного перебування з родиною чи друзями. Балкон з видом на парк, сніданок включено. Просторий номер, який створює домашню атмосферу і забезпечує відчуття комфорту та приватності для кожного гостя.</p>
         </div>
         <div class="room-attributes">
-            <p>Ціна: 2100 грн/ніч</p>
-            <p>Категорія: Звичайні</p>
-            <p>Кількість ліжок: 1</p>
-            <p>Балкон: Так</p>
-            <p>Сніданок: Є</p>
-            <p>Кількість кімнат: 1</p>
-            <p>Поверх: 2</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="3200" data-category="luxury" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="2" data-floor="4" data-index="9">
-        <img src="img/room9.jpg" alt="Luxury Room" class="room-image">
-        <div class="room-description">
-            <h4>Люкс 9</h4>
-            <p>Двомісний люкс з балконом та видом на парк. Просторі апартаменти для тривалого відпочинку, сніданок включено.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 3200 грн/ніч</p>
+            <p>Ціна: 1900₴ /ніч</p>
             <p>Категорія: Люкс</p>
             <p>Кількість ліжок: 2</p>
-            <p>Балкон: Так</p>
-            <p>Сніданок: Є</p>
-            <p>Кількість кімнат: 2</p>
-            <p>Поверх: 4</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="3300" data-category="presidential" data-beds="2" data-balcony="no" data-breakfast="yes" data-rooms="3" data-floor="6" data-index="10">
-        <img src="img/room10.jpg" alt="Presidential Suite" class="room-image">
-        <div class="room-description">
-            <h4>Президентський Люкс 10</h4>
-            <p>Елітний номер з розкішними зручностями на верхньому поверсі. Панорамний вид і сніданок включено.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 3300 грн/ніч</p>
-            <p>Категорія: Президентські</p>
-            <p>Кількість ліжок: 2</p>
-            <p>Балкон: Ні</p>
-            <p>Сніданок: Є</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Немає</p>
             <p>Кількість кімнат: 3</p>
-            <p>Поверх: 6</p>
+            <p>Поверх: 5</p>
         </div>
-        <button class="booking-button">Забронювати</button>
+        <button class="booking-button" onclick="openBookingModal(1900)">Забронювати</button>
     </div>
 
-    <div class="room-card" data-price="1500" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="1" data-index="11">
-        <img src="img/room11.jpg" alt="Standard Room" class="room-image">
+    <div class="room-card" data-price="3500" data-category="presidential" data-beds="3" data-balcony="yes" data-breakfast="yes" data-rooms="4" data-floor="5" data-index="29">
+        <img src="img/president2.jpg" alt="Presidential Room" class="room-image">
         <div class="room-description">
-            <h4>Стандартний Номер 11</h4>
-            <p>Невеликий номер для одного гостя, з базовими зручностями. Ідеальний варіант для короткотривалого перебування.</p>
+            <h4>№29</h4>
+            <p>Президентський номер для трьох гостей з балконом, з якого відкривається чудовий краєвид на місто. Оснащений усіма сучасними зручностями, включаючи систему клімат-контролю та великий телевізор. Сніданок подається в номер або у ресторані, де можна насолодитись свіжими стравами.</p>
         </div>
         <div class="room-attributes">
-            <p>Ціна: 1500 грн/ніч</p>
-            <p>Категорія: Звичайні</p>
+            <p>Ціна: 3500₴ /ніч</p>
+            <p>Категорія: Президентський</p>
+            <p>Кількість ліжок: 3</p>
+            <p>Балкон: Є</p>
+            <p>Сніданок: Є</p>
+            <p>Кількість кімнат: 4</p>
+            <p>Поверх: 5</p>
+        </div>
+        <button class="booking-button" onclick="openBookingModal(3500)">Забронювати</button>
+    </div>
+
+    <div class="room-card" data-price="700" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="no" data-rooms="2" data-floor="5" data-index="30">
+        <img src="img/standard2.jpg" alt="Standard Room" class="room-image">
+        <div class="room-description">
+            <h4>№30</h4>
+            <p>Компактний стандартний номер для одного гостя з мінімальними зручностями для короткого перебування. Номер без балкону, але з усіма базовими зручностями, що робить його ідеальним вибором для тих, хто перебуває в місті лише на кілька днів.</p>
+        </div>
+        <div class="room-attributes">
+            <p>Ціна: 700₴ /ніч</p>
+            <p>Категорія: Стандарт</p>
             <p>Кількість ліжок: 1</p>
-            <p>Балкон: Ні</p>
+            <p>Балкон: Немає</p>
             <p>Сніданок: Немає</p>
-            <p>Кількість кімнат: 1</p>
-            <p>Поверх: 1</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="2700" data-category="luxury" data-beds="1" data-balcony="yes" data-breakfast="yes" data-rooms="2" data-floor="3" data-index="12">
-        <img src="img/room12.jpg" alt="Luxury Room" class="room-image">
-        <div class="room-description">
-            <h4>Люкс 12</h4>
-            <p>Просторий люкс з балконом, призначений для одного гостя. Насолоджуйтесь комфортом і сніданком на терасі.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 2700 грн/ніч</p>
-            <p>Категорія: Люкс</p>
-            <p>Кількість ліжок: 1</p>
-            <p>Балкон: Так</p>
-            <p>Сніданок: Є</p>
-            <p>Кількість кімнат: 2</p>
-            <p>Поверх: 3</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="3100" data-category="presidential" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="2" data-floor="5" data-index="13">
-        <img src="img/room13.jpg" alt="Presidential Suite" class="room-image">
-        <div class="room-description">
-            <h4>Президентський Люкс 13</h4>
-            <p>Розкішний двокімнатний номер з видом на річку. Панорамний балкон і сніданок додають особливого шику.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 3100 грн/ніч</p>
-            <p>Категорія: Президентські</p>
-            <p>Кількість ліжок: 2</p>
-            <p>Балкон: Так</p>
-            <p>Сніданок: Є</p>
             <p>Кількість кімнат: 2</p>
             <p>Поверх: 5</p>
         </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="1600" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="2" data-index="14">
-        <img src="img/room14.jpg" alt="Standard Room" class="room-image">
-        <div class="room-description">
-            <h4>Стандартний Номер 14</h4>
-            <p>Простий, але зручний номер для одного. Оптимальне рішення для економного перебування.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 1600 грн/ніч</p>
-            <p>Категорія: Звичайні</p>
-            <p>Кількість ліжок: 1</p>
-            <p>Балкон: Ні</p>
-            <p>Сніданок: Немає</p>
-            <p>Кількість кімнат: 1</p>
-            <p>Поверх: 2</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="2900" data-category="luxury" data-beds="3" data-balcony="yes" data-breakfast="yes" data-rooms="2" data-floor="4" data-index="15">
-        <img src="img/room15.jpg" alt="Luxury Room" class="room-image">
-        <div class="room-description">
-            <h4>Люкс 15</h4>
-            <p>Просторий люкс для трьох гостей з видом на парк. Ідеально для сімейного відпочинку, сніданок включено.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 2900 грн/ніч</p>
-            <p>Категорія: Люкс</p>
-            <p>Кількість ліжок: 3</p>
-            <p>Балкон: Так</p>
-            <p>Сніданок: Є</p>
-            <p>Кількість кімнат: 2</p>
-            <p>Поверх: 4</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="3400" data-category="presidential" data-beds="4" data-balcony="yes" data-breakfast="yes" data-rooms="3" data-floor="6" data-index="16">
-        <img src="img/room16.jpg" alt="Presidential Suite" class="room-image">
-        <div class="room-description">
-            <h4>Президентський Люкс 16</h4>
-            <p>Елітний люкс з панорамним видом і простором для чотирьох гостей. Найвищий рівень комфорту.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 3400 грн/ніч</p>
-            <p>Категорія: Президентські</p>
-            <p>Кількість ліжок: 4</p>
-            <p>Балкон: Так</p>
-            <p>Сніданок: Є</p>
-            <p>Кількість кімнат: 3</p>
-            <p>Поверх: 6</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="2300" data-category="luxury" data-beds="1" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="2" data-index="17">
-        <img src="img/room17.jpg" alt="Luxury Room" class="room-image">
-        <div class="room-description">
-            <h4>Люкс 17</h4>
-            <p>Люкс для одного без балкону, але з високим рівнем комфорту. Ідеальний варіант для бізнес-мандрівників.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 2300 грн/ніч</p>
-            <p>Категорія: Люкс</p>
-            <p>Кількість ліжок: 1</p>
-            <p>Балкон: Ні</p>
-            <p>Сніданок: Немає</p>
-            <p>Кількість кімнат: 1</p>
-            <p>Поверх: 2</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="2400" data-category="luxury" data-beds="2" data-balcony="yes" data-breakfast="yes" data-rooms="1" data-floor="3" data-index="18">
-        <img src="img/room18.jpg" alt="Luxury Room" class="room-image">
-        <div class="room-description">
-            <h4>Люкс 18</h4>
-            <p>Двомісний люкс з балконом і сніданком. Ідеально підходить для пар, які шукають комфорт і розкіш.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 2400 грн/ніч</p>
-            <p>Категорія: Люкс</p>
-            <p>Кількість ліжок: 2</p>
-            <p>Балкон: Так</p>
-            <p>Сніданок: Є</p>
-            <p>Кількість кімнат: 1</p>
-            <p>Поверх: 3</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="1900" data-category="standard" data-beds="2" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="1" data-index="19">
-        <img src="img/room19.jpg" alt="Standard Room" class="room-image">
-        <div class="room-description">
-            <h4>Стандартний Номер 19</h4>
-            <p>Двомісний номер з базовими зручностями, оптимальний для бюджетного перебування.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 1900 грн/ніч</p>
-            <p>Категорія: Звичайні</p>
-            <p>Кількість ліжок: 2</p>
-            <p>Балкон: Ні</p>
-            <p>Сніданок: Немає</p>
-            <p>Кількість кімнат: 1</p>
-            <p>Поверх: 1</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
-    </div>
-
-    <div class="room-card" data-price="1500" data-category="standard" data-beds="1" data-balcony="no" data-breakfast="no" data-rooms="1" data-floor="1" data-index="20">
-        <img src="img/room20.jpg" alt="Standard Room" class="room-image">
-        <div class="room-description">
-            <h4>Стандартний Номер 20</h4>
-            <p>Компактний номер для одного з усіма необхідними зручностями. Ідеально для коротких поїздок.</p>
-        </div>
-        <div class="room-attributes">
-            <p>Ціна: 1500 грн/ніч</p>
-            <p>Категорія: Звичайні</p>
-            <p>Кількість ліжок: 1</p>
-            <p>Балкон: Ні</p>
-            <p>Сніданок: Немає</p>
-            <p>Кількість кімнат: 1</p>
-            <p>Поверх: 1</p>
-        </div>
-        <button class="booking-button">Забронювати</button>
+        <button class="booking-button" onclick="openBookingModal(700)">Забронювати</button>
     </div>
 </div>
 
