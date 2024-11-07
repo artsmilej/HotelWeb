@@ -17,12 +17,12 @@
       "PackagePath": "staticwebassets\\img\\PhotoMain.jpg"
     },
     {
-      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logo-white.svg",
-      "PackagePath": "staticwebassets\\img\\logo-white.svg"
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logo.svg",
-      "PackagePath": "staticwebassets\\img\\logo.svg"
+      "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logowhite.png",
+      "PackagePath": "staticwebassets\\img\\logowhite.png"
     },
     {
       "Id": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\lux1.jpg",

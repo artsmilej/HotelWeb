@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fLLVBoQSDoRm2wTT5Uv/QIJ5056qNLuOuNxduP6k5zs=",
+  "Hash": "ord1kfoyGNQLmgWode0YnvtszIJYZ1CsEeaDkVSIdKg=",
   "Source": "HotelWeb",
   "BasePath": "_content/HotelWeb",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logo.svg",
+      "Identity": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logo.png",
       "SourceId": "HotelWeb",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\",
       "BasePath": "_content/HotelWeb",
-      "RelativePath": "img/logo.svg",
+      "RelativePath": "img/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +109,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo.svg"
+      "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logo-white.svg",
+      "Identity": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\logowhite.png",
       "SourceId": "HotelWeb",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\",
       "BasePath": "_content/HotelWeb",
-      "RelativePath": "img/logo-white.svg",
+      "RelativePath": "img/logowhite.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo-white.svg"
+      "OriginalItemSpec": "wwwroot\\img\\logowhite.png"
     },
     {
       "Identity": "E:\\Проект\\HotelWeb\\HotelWeb\\HotelWeb\\wwwroot\\img\\lux1.jpg",
