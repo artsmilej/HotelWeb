@@ -16,6 +16,11 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
+header .header-top img {
+    height: 70px; /* Задайте бажану висоту */
+    max-width: 100%;
+    object-fit: contain;
+}
 .contact-info {
     flex: 1;
     font-size: 1.2rem;
@@ -326,7 +331,11 @@ header {
                 .footer-menu ul li a:hover {
                     color: #fff;
                 }
-
+.footer-logo img {
+    max-width: 150px; /* Задайте бажану максимальну ширину */
+    width: auto; /* Зберігає пропорції зображення */
+    height: auto; /* Зберігає пропорції зображення */
+}
 .footer-contacts {
     flex: 1;
     min-width: 200px;
